@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    android:alpha="30">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbutton"
+            android:text="@string/weather" />
+
+        <EditText
+            android:id="@+id/city_weather"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入城市名称"
+            android:imeActionId="@+id/weather_search"
+            android:imeOptions="actionDone"
+            android:maxLines="1"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pm25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbutton"
+        android:text="@string/PM2.5" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手机传感终端</string>
+    <string name="menu_settings">Settings</string>
+    <string name="weather">获取天气</string>
+    <string name="PM2.5">武汉详细空气质量</string>
+    <string name="weather_app">天气情况</string>
+    <string name="pm2.5_app">今日空气质量</string>
+    <string name="pm2.5_key">Dr1MNeFWqBFp2VN3rTuk</string>
+    <string name="sensor_app">手机传感器数据</string>
+    <string name="gps_app">手机GPS信息</string>
+    <string name="sendPeriod">发送周期</string>
+
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="定位信息"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:id="@+id/tvLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在定位中，请稍候..." />
+            <Button
+                android:id="@+id/bdMap"
+               	android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="查看地图"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="加速度传感器数据"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#123456"
+            android:text="提示：X方向——沿屏幕向左；Y方向——沿屏幕向上；Z方向——垂直于屏幕向里"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/tvAcce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="方向传感器数据"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#123456"
+            android:text="提示：绕X轴——手机顶端与正北方向的夹角；绕Y轴——手机顶部或底部翘起的角度；绕Z轴——手机左侧或右侧翘起的角度"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/tvOrientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="螺旋仪数据"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#123456"
+            android:text="提示：该数据为绕x、y、z三轴的角加速度数据。\n水平逆时针旋转，Z轴为正。水平逆时针旋转，z轴为负。向左旋转，y轴为负。向右旋转，y轴为正。\n向上旋转，x轴为负。向下旋转，x轴为正"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/tvGyroscope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="重力感应器数据"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#123456"
+            android:text="提示：在地球上，重力数值为9.8。\n数据值为：手机在x、y、z轴方向上的重力"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/tvGravity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="磁场传感器数据"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#123456"
+            android:text="提示：x、y、z三轴的环境磁场强度数据，单位为微特斯拉（uT）"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/tvMagnetic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="温度传感器数据"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvTemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="光线传感器数据"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

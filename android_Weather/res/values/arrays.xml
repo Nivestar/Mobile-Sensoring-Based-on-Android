@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sendPeroid">
+        <item >30秒钟</item>
+        <item >1分钟</item>
+        <item >5分钟</item>
+        <item >10分钟</item>
+    </string-array>
+    
+</resources>

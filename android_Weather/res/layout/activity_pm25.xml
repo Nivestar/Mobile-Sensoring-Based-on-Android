@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pm25_background" >
+
+    <LinearLayout
+        
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center_horizontal"
+                android:text="监测点"
+                android:textColor="#000000" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center_horizontal"
+                android:text="AQI"
+                android:textColor="#000000" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center_horizontal"
+                android:text="空气质量指数类别"
+                android:textColor="#000000" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center_horizontal"
+                android:text="首要污染物"
+                android:textColor="#000000" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center_horizontal"
+                android:text="PM2.5\n细颗粒物"
+                android:textColor="#000000" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center_horizontal"
+                android:text="PM10\n可吸入颗粒物"
+                android:textColor="#000000" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center_horizontal"
+                android:text="CO\n一氧化碳"
+                android:textColor="#000000" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center_horizontal"
+                android:text="NO2\n二氧化氮"
+                android:textColor="#000000" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center_horizontal"
+                android:text="O3\n臭氧1小时平均"
+                android:textColor="#000000" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center_horizontal"
+                android:text="SO2\n二氧化硫"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <ListView
+            android:divider="#00EEEE"
+            android:dividerHeight="1dp"
+            android:id="@+id/pm25_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+</HorizontalScrollView>
